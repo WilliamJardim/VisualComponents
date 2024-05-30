@@ -1,0 +1,67 @@
+.MyDialog-Dialog{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 300px;
+    height: 200px;
+    border: solid 2px black;
+    border-radius: 16px;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.MyDialog-header{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    background-color: rgba(97, 97, 97, 0.5);
+    margin: 3px 3px 3px 3px;
+    border: solid 2px black;
+    border-radius: 16px;
+    width: auto;
+    height: 5vh;
+}
+
+.MyDialog-title{
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12pt;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    height: 100vh;
+    margin-top: 1vh;
+}
+
+.MyDialog-body{
+    flex: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 3px;
+    justify-self: center;
+    background-color: rgba(97, 97, 97, 0.5);
+    border: solid 2px black;
+    border-radius: 16px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: auto;
+    height: 95vh;
+}
+
+.MyDialog-window-button{
+    border: solid 1px black;
+    border-radius: 60px;
+    flex: 0.05;
+    font-size: 16px;
+    text-align: center;
+}
+
+.MyDialog-window-button-close{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+}
