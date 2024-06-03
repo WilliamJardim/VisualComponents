@@ -1,4 +1,4 @@
-var dialog = Dialog({
+var dialog = MyDialogs.Dialog({
     title: 'Meu dialog',
     html: `
         Teste de conteudo
